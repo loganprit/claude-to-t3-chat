@@ -1,0 +1,23 @@
+{
+  "name": "claude-to-t3-chat",
+  "version": "1.0.0",
+  "description": "Convert Claude chat exports to T3 chat format",
+  "main": "master.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx master.ts",
+    "clean": "tsx helpers/clean_conversations.ts",
+    "convert": "tsx helpers/convert.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tsx": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "compilerOptions": {
+    "module": "NodeNext"
+  }
+}
