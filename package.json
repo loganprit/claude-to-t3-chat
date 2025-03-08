@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "tsx master.ts",
-    "clean": "tsx helpers/clean_conversations.ts",
-    "convert": "tsx helpers/convert.ts",
+    "clean": "tsx clean_conversations.ts",
+    "convert": "tsx convert.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
