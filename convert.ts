@@ -1,10 +1,10 @@
 import path from "path";
 import { fileURLToPath } from 'url';
-import { readJsonFile, writeJsonFile, generateTimestamp } from "./utils.js";
-import { threadProcessor } from "./threadProcessor.js";
-import { messageProcessor } from "./messageProcessor.js";
-import type { Conversation, Thread } from "../types/index.js";
-import type { ProcessedMessage } from "./messageProcessor.js";
+import { readJsonFile, writeJsonFile, generateTimestamp } from "./helpers/utils.js";
+import { threadProcessor } from "./helpers/threadProcessor.js";
+import { messageProcessor } from "./helpers/messageProcessor.js";
+import type { Conversation, Thread } from "./types/index.js";
+import type { ProcessedMessage } from "./helpers/messageProcessor.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from 'url';
-import type { Conversation, Message } from "../types/index.ts";
+import type { Conversation, Message } from "./types/index.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
