@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 try {
-  const conversationsPath = path.join(__dirname, "..", "data", "cleaned_conversations.json");
+  const conversationsPath = path.join(__dirname, "data", "cleaned_conversations.json");
   const conversations = readJsonFile(conversationsPath) as Conversation[];
 
   const t3ChatFormat: { threads: Thread[]; messages: ProcessedMessage[] } = {
@@ -39,7 +39,7 @@ try {
   );
 
   const timestamp = generateTimestamp();
-  const outputPath = path.join(__dirname, "..", "data", `t3chat-import-${timestamp}.json`);
+  const outputPath = path.join(__dirname,"data", `t3chat-import-${timestamp}.json`);
   writeJsonFile(outputPath, t3ChatFormat);
 
   console.log(`Conversion complete! Output saved to ${outputPath}`);

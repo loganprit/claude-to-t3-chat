@@ -9,13 +9,11 @@ const __dirname = path.dirname(__filename);
 // Update file paths to be relative to project root
 const conversationsPath = path.join(
   __dirname,
-  "..",
-  "data",
+  "data", 
   "conversations.json"
 );
 const cleanedConversationsPath = path.join(
   __dirname,
-  "..",
   "data",
   "cleaned_conversations.json"
 );
