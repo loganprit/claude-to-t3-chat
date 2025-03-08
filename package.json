@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx master.ts",
-    "clean": "tsx clean_conversations.ts",
+    "clean": "tsx cleanConversations.ts",
     "convert": "tsx convert.ts",
     "typecheck": "tsc --noEmit"
   },
