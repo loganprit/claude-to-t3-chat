@@ -64,3 +64,7 @@ Theo is constantly updating T3 Chat, so this script might not work for very long
 - `pnpm run clean` - Clean and prepare conversations
 - `pnpm run convert` - Convert to T3 Chat format
 - `pnpm run typecheck` - Type check the codebase
+
+# PSA
+
+If you'd like to convert your ChatGPT chats to T3 Chat, check out my [repo](https://github.com/loganprit/chatgpt-to-t3-chat)!

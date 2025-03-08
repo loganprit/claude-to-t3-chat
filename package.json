@@ -2,7 +2,7 @@
   "name": "claude-to-t3-chat",
   "version": "1.0.0",
   "description": "Convert Claude chat exports to T3 chat format",
-  "main": "master.ts",
+  "main": "convert.ts",
   "type": "module",
   "scripts": {
     "clean": "tsx cleanConversations.ts",
